@@ -6,8 +6,16 @@ body{
 section{
   height: 500px;  
 }
+footer{
+text-align: center;}
+.name_info{
+    font-size: 40px;
+    padding-bottom:-10px ;
+    
+}
 .name_highlight {
     color: sandybrown;
+    padding-top: -5%;
 }
 .half_width {
     width: 40%;
@@ -16,7 +24,7 @@ section{
     padding: 2%;
 }
 .half_width img {
-    width: 100%;
+    width:80%;
     
 }
 .top_banner {
@@ -30,4 +38,42 @@ section{
     border-radius: 5px;
     color: aliceblue;
     font-weight: bold;
+}
+.name_info h1 {
+    padding-top: 20px;
+    margin-top: 0; /* Adjust the top margin as needed */
+    margin-bottom: 0; /* Adjust the bottom margin as needed */
+    /* Other styles */
+}
+
+.dream{
+    
+    background-image: url(/img/dream-bg.png);
+    background-repeat: no-repeat;
+}
+.experience_highlight{
+    color: sandybrown;
+}
+.foysalda{
+    padding-left: 7%;
+}
+.experience{
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 3px;
+   
+}
+.experience_area{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full_stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#full_stack2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan );
+    border-image-slice: 1;
 }
